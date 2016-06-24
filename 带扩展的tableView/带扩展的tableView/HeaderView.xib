@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" customClass="headerView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="432" height="32"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brand_expand" translatesAutoresizingMaskIntoConstraints="NO" id="V7q-Ml-cfv">
+                    <rect key="frame" x="10" y="10" width="15" height="7"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="n97-Gg-WQP"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i37-d8-INI">
+                    <rect key="frame" x="0.0" y="0.0" width="432" height="51"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="btnDidCilicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ji3-8M-b20"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ML-DZ-fKq">
+                    <rect key="frame" x="35" y="5" width="387" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="0.70945945945945943" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="V7q-Ml-cfv" secondAttribute="bottom" constant="15" id="0jO-7E-0ls"/>
+                <constraint firstAttribute="trailing" secondItem="i37-d8-INI" secondAttribute="trailing" id="3Bk-bW-9Ko"/>
+                <constraint firstItem="4ML-DZ-fKq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="693-ZZ-MPX"/>
+                <constraint firstItem="i37-d8-INI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="H89-I9-n1I"/>
+                <constraint firstItem="V7q-Ml-cfv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="HEc-yC-QUo"/>
+                <constraint firstItem="V7q-Ml-cfv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="jZp-KU-k7s"/>
+                <constraint firstItem="i37-d8-INI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lVQ-QU-dH2"/>
+                <constraint firstAttribute="trailing" secondItem="4ML-DZ-fKq" secondAttribute="trailing" constant="10" id="n46-cG-zkr"/>
+                <constraint firstAttribute="bottom" secondItem="i37-d8-INI" secondAttribute="bottom" constant="-19" id="rF5-6L-eus"/>
+                <constraint firstItem="4ML-DZ-fKq" firstAttribute="leading" secondItem="V7q-Ml-cfv" secondAttribute="trailing" constant="10" id="uJy-Ap-cWp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="button" destination="i37-d8-INI" id="32C-Gq-4JK"/>
+                <outlet property="expandImgView" destination="V7q-Ml-cfv" id="d8R-S0-BtW"/>
+                <outlet property="titleLabel" destination="4ML-DZ-fKq" id="N69-Tk-jCn"/>
+            </connections>
+            <point key="canvasLocation" x="196" y="177"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="brand_expand" width="15" height="8"/>
+    </resources>
+</document>
