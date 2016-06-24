@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18ED2B011C7463F200244219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED2B001C7463F200244219 /* main.m */; };
+		18ED2B041C7463F200244219 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED2B031C7463F200244219 /* AppDelegate.m */; };
+		18ED2B071C7463F200244219 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED2B061C7463F200244219 /* ViewController.m */; };
+		18ED2B0A1C7463F200244219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED2B081C7463F200244219 /* Main.storyboard */; };
+		18ED2B0C1C7463F200244219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ED2B0B1C7463F200244219 /* Assets.xcassets */; };
+		18ED2B0F1C7463F200244219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED2B0D1C7463F200244219 /* LaunchScreen.storyboard */; };
+		18ED2B1A1C7463F300244219 /* Masonry_FDTemplateLayoutCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED2B191C7463F300244219 /* Masonry_FDTemplateLayoutCellTests.m */; };
+		18ED2B251C7463F300244219 /* Masonry_FDTemplateLayoutCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED2B241C7463F300244219 /* Masonry_FDTemplateLayoutCellUITests.m */; };
+		18ED2B341C74740000244219 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED2B331C74740000244219 /* MyTableViewCell.m */; };
+		18ED2B371C74775900244219 /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED2B361C74775900244219 /* MyModel.m */; };
+		DFCA350C01AD31A616F17022 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 613DA6E81C82B8445119ECEE /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18ED2B161C7463F300244219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18ED2AF41C7463F200244219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18ED2AFB1C7463F200244219;
+			remoteInfo = "Masonry与FDTemplateLayoutCell";
+		};
+		18ED2B211C7463F300244219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18ED2AF41C7463F200244219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18ED2AFB1C7463F200244219;
+			remoteInfo = "Masonry与FDTemplateLayoutCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18ED2AFC1C7463F200244219 /* Masonry与FDTemplateLayoutCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masonry与FDTemplateLayoutCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18ED2B001C7463F200244219 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18ED2B021C7463F200244219 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18ED2B031C7463F200244219 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18ED2B051C7463F200244219 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18ED2B061C7463F200244219 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18ED2B091C7463F200244219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18ED2B0B1C7463F200244219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18ED2B0E1C7463F200244219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18ED2B101C7463F200244219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ED2B151C7463F300244219 /* Masonry与FDTemplateLayoutCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masonry与FDTemplateLayoutCellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18ED2B191C7463F300244219 /* Masonry_FDTemplateLayoutCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry_FDTemplateLayoutCellTests.m; sourceTree = "<group>"; };
+		18ED2B1B1C7463F300244219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ED2B201C7463F300244219 /* Masonry与FDTemplateLayoutCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masonry与FDTemplateLayoutCellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18ED2B241C7463F300244219 /* Masonry_FDTemplateLayoutCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry_FDTemplateLayoutCellUITests.m; sourceTree = "<group>"; };
+		18ED2B261C7463F300244219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ED2B321C74740000244219 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		18ED2B331C74740000244219 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		18ED2B351C74775900244219 /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		18ED2B361C74775900244219 /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		4CAEAFD81EF631E704EF2802 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		613DA6E81C82B8445119ECEE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC48C7EDA449AA645F3986F9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18ED2AF91C7463F200244219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCA350C01AD31A616F17022 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18ED2B121C7463F300244219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18ED2B1D1C7463F300244219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA558EB9F46A1CBE7BA4A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				613DA6E81C82B8445119ECEE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18ED2AF31C7463F200244219 = {
+			isa = PBXGroup;
+			children = (
+				18ED2AFE1C7463F200244219 /* Masonry与FDTemplateLayoutCell */,
+				18ED2B181C7463F300244219 /* Masonry与FDTemplateLayoutCellTests */,
+				18ED2B231C7463F300244219 /* Masonry与FDTemplateLayoutCellUITests */,
+				18ED2AFD1C7463F200244219 /* Products */,
+				2A2F1CC9A2BEBB21E90D9573 /* Pods */,
+				0AA558EB9F46A1CBE7BA4A8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18ED2AFD1C7463F200244219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18ED2AFC1C7463F200244219 /* Masonry与FDTemplateLayoutCell.app */,
+				18ED2B151C7463F300244219 /* Masonry与FDTemplateLayoutCellTests.xctest */,
+				18ED2B201C7463F300244219 /* Masonry与FDTemplateLayoutCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18ED2AFE1C7463F200244219 /* Masonry与FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				18ED2B021C7463F200244219 /* AppDelegate.h */,
+				18ED2B031C7463F200244219 /* AppDelegate.m */,
+				18ED2B351C74775900244219 /* MyModel.h */,
+				18ED2B361C74775900244219 /* MyModel.m */,
+				18ED2B051C7463F200244219 /* ViewController.h */,
+				18ED2B061C7463F200244219 /* ViewController.m */,
+				18ED2B321C74740000244219 /* MyTableViewCell.h */,
+				18ED2B331C74740000244219 /* MyTableViewCell.m */,
+				18ED2B081C7463F200244219 /* Main.storyboard */,
+				18ED2B0B1C7463F200244219 /* Assets.xcassets */,
+				18ED2B0D1C7463F200244219 /* LaunchScreen.storyboard */,
+				18ED2B101C7463F200244219 /* Info.plist */,
+				18ED2AFF1C7463F200244219 /* Supporting Files */,
+			);
+			path = "Masonry与FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+		18ED2AFF1C7463F200244219 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18ED2B001C7463F200244219 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18ED2B181C7463F300244219 /* Masonry与FDTemplateLayoutCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				18ED2B191C7463F300244219 /* Masonry_FDTemplateLayoutCellTests.m */,
+				18ED2B1B1C7463F300244219 /* Info.plist */,
+			);
+			path = "Masonry与FDTemplateLayoutCellTests";
+			sourceTree = "<group>";
+		};
+		18ED2B231C7463F300244219 /* Masonry与FDTemplateLayoutCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18ED2B241C7463F300244219 /* Masonry_FDTemplateLayoutCellUITests.m */,
+				18ED2B261C7463F300244219 /* Info.plist */,
+			);
+			path = "Masonry与FDTemplateLayoutCellUITests";
+			sourceTree = "<group>";
+		};
+		2A2F1CC9A2BEBB21E90D9573 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEAFD81EF631E704EF2802 /* Pods.debug.xcconfig */,
+				EC48C7EDA449AA645F3986F9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18ED2AFB1C7463F200244219 /* Masonry与FDTemplateLayoutCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18ED2B291C7463F300244219 /* Build configuration list for PBXNativeTarget "Masonry与FDTemplateLayoutCell" */;
+			buildPhases = (
+				5A8200AC2249648A0C2C23B1 /* Check Pods Manifest.lock */,
+				18ED2AF81C7463F200244219 /* Sources */,
+				18ED2AF91C7463F200244219 /* Frameworks */,
+				18ED2AFA1C7463F200244219 /* Resources */,
+				4522BB4EE669DD4B7BDB5A3C /* Embed Pods Frameworks */,
+				1EC831F84561F083B9AC93CE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Masonry与FDTemplateLayoutCell";
+			productName = "Masonry与FDTemplateLayoutCell";
+			productReference = 18ED2AFC1C7463F200244219 /* Masonry与FDTemplateLayoutCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18ED2B141C7463F300244219 /* Masonry与FDTemplateLayoutCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18ED2B2C1C7463F300244219 /* Build configuration list for PBXNativeTarget "Masonry与FDTemplateLayoutCellTests" */;
+			buildPhases = (
+				18ED2B111C7463F300244219 /* Sources */,
+				18ED2B121C7463F300244219 /* Frameworks */,
+				18ED2B131C7463F300244219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18ED2B171C7463F300244219 /* PBXTargetDependency */,
+			);
+			name = "Masonry与FDTemplateLayoutCellTests";
+			productName = "Masonry与FDTemplateLayoutCellTests";
+			productReference = 18ED2B151C7463F300244219 /* Masonry与FDTemplateLayoutCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18ED2B1F1C7463F300244219 /* Masonry与FDTemplateLayoutCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18ED2B2F1C7463F300244219 /* Build configuration list for PBXNativeTarget "Masonry与FDTemplateLayoutCellUITests" */;
+			buildPhases = (
+				18ED2B1C1C7463F300244219 /* Sources */,
+				18ED2B1D1C7463F300244219 /* Frameworks */,
+				18ED2B1E1C7463F300244219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18ED2B221C7463F300244219 /* PBXTargetDependency */,
+			);
+			name = "Masonry与FDTemplateLayoutCellUITests";
+			productName = "Masonry与FDTemplateLayoutCellUITests";
+			productReference = 18ED2B201C7463F300244219 /* Masonry与FDTemplateLayoutCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18ED2AF41C7463F200244219 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18ED2AFB1C7463F200244219 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18ED2B141C7463F300244219 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18ED2AFB1C7463F200244219;
+					};
+					18ED2B1F1C7463F300244219 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18ED2AFB1C7463F200244219;
+					};
+				};
+			};
+			buildConfigurationList = 18ED2AF71C7463F200244219 /* Build configuration list for PBXProject "Masonry与FDTemplateLayoutCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18ED2AF31C7463F200244219;
+			productRefGroup = 18ED2AFD1C7463F200244219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18ED2AFB1C7463F200244219 /* Masonry与FDTemplateLayoutCell */,
+				18ED2B141C7463F300244219 /* Masonry与FDTemplateLayoutCellTests */,
+				18ED2B1F1C7463F300244219 /* Masonry与FDTemplateLayoutCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18ED2AFA1C7463F200244219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ED2B0F1C7463F200244219 /* LaunchScreen.storyboard in Resources */,
+				18ED2B0C1C7463F200244219 /* Assets.xcassets in Resources */,
+				18ED2B0A1C7463F200244219 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18ED2B131C7463F300244219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18ED2B1E1C7463F300244219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EC831F84561F083B9AC93CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4522BB4EE669DD4B7BDB5A3C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8200AC2249648A0C2C23B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18ED2AF81C7463F200244219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ED2B071C7463F200244219 /* ViewController.m in Sources */,
+				18ED2B371C74775900244219 /* MyModel.m in Sources */,
+				18ED2B341C74740000244219 /* MyTableViewCell.m in Sources */,
+				18ED2B041C7463F200244219 /* AppDelegate.m in Sources */,
+				18ED2B011C7463F200244219 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18ED2B111C7463F300244219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ED2B1A1C7463F300244219 /* Masonry_FDTemplateLayoutCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18ED2B1C1C7463F300244219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ED2B251C7463F300244219 /* Masonry_FDTemplateLayoutCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18ED2B171C7463F300244219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18ED2AFB1C7463F200244219 /* Masonry与FDTemplateLayoutCell */;
+			targetProxy = 18ED2B161C7463F300244219 /* PBXContainerItemProxy */;
+		};
+		18ED2B221C7463F300244219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18ED2AFB1C7463F200244219 /* Masonry与FDTemplateLayoutCell */;
+			targetProxy = 18ED2B211C7463F300244219 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18ED2B081C7463F200244219 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18ED2B091C7463F200244219 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18ED2B0D1C7463F200244219 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18ED2B0E1C7463F200244219 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18ED2B271C7463F300244219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18ED2B281C7463F300244219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18ED2B2A1C7463F300244219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAEAFD81EF631E704EF2802 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Masonry与FDTemplateLayoutCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eli.Masonry-FDTemplateLayoutCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18ED2B2B1C7463F300244219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC48C7EDA449AA645F3986F9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Masonry与FDTemplateLayoutCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eli.Masonry-FDTemplateLayoutCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18ED2B2D1C7463F300244219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Masonry与FDTemplateLayoutCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eli.Masonry-FDTemplateLayoutCellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masonry与FDTemplateLayoutCell.app/Masonry与FDTemplateLayoutCell";
+			};
+			name = Debug;
+		};
+		18ED2B2E1C7463F300244219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Masonry与FDTemplateLayoutCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eli.Masonry-FDTemplateLayoutCellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masonry与FDTemplateLayoutCell.app/Masonry与FDTemplateLayoutCell";
+			};
+			name = Release;
+		};
+		18ED2B301C7463F300244219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Masonry与FDTemplateLayoutCellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eli.Masonry-FDTemplateLayoutCellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Masonry与FDTemplateLayoutCell";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18ED2B311C7463F300244219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Masonry与FDTemplateLayoutCellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eli.Masonry-FDTemplateLayoutCellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Masonry与FDTemplateLayoutCell";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18ED2AF71C7463F200244219 /* Build configuration list for PBXProject "Masonry与FDTemplateLayoutCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ED2B271C7463F300244219 /* Debug */,
+				18ED2B281C7463F300244219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18ED2B291C7463F300244219 /* Build configuration list for PBXNativeTarget "Masonry与FDTemplateLayoutCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ED2B2A1C7463F300244219 /* Debug */,
+				18ED2B2B1C7463F300244219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18ED2B2C1C7463F300244219 /* Build configuration list for PBXNativeTarget "Masonry与FDTemplateLayoutCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ED2B2D1C7463F300244219 /* Debug */,
+				18ED2B2E1C7463F300244219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18ED2B2F1C7463F300244219 /* Build configuration list for PBXNativeTarget "Masonry与FDTemplateLayoutCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ED2B301C7463F300244219 /* Debug */,
+				18ED2B311C7463F300244219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18ED2AF41C7463F200244219 /* Project object */;
+}
