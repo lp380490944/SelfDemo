@@ -16,6 +16,8 @@
 		18D3F8771DEFBE5D003DC1AE /* QRcodeDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3F8761DEFBE5D003DC1AE /* QRcodeDemo2Tests.m */; };
 		18D3F8821DEFBE5D003DC1AE /* QRcodeDemo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3F8811DEFBE5D003DC1AE /* QRcodeDemo2UITests.m */; };
 		18D3F8911DEFC02B003DC1AE /* UIView+Untill.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3F8901DEFC02B003DC1AE /* UIView+Untill.m */; };
+		18D9C6181DF56947007574DB /* QRListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9C6171DF56947007574DB /* QRListController.m */; };
+		18D9C61B1DF569FF007574DB /* LPCreatQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9C61A1DF569FF007574DB /* LPCreatQRController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		18D3F8831DEFBE5D003DC1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D3F88F1DEFC02B003DC1AE /* UIView+Untill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Untill.h"; sourceTree = "<group>"; };
 		18D3F8901DEFC02B003DC1AE /* UIView+Untill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Untill.m"; sourceTree = "<group>"; };
+		18D9C6161DF56947007574DB /* QRListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRListController.h; sourceTree = "<group>"; };
+		18D9C6171DF56947007574DB /* QRListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRListController.m; sourceTree = "<group>"; };
+		18D9C6191DF569FF007574DB /* LPCreatQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCreatQRController.h; sourceTree = "<group>"; };
+		18D9C61A1DF569FF007574DB /* LPCreatQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCreatQRController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +110,16 @@
 		18D3F85B1DEFBE5D003DC1AE /* QRcodeDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				18D9C6161DF56947007574DB /* QRListController.h */,
+				18D9C6171DF56947007574DB /* QRListController.m */,
 				18D3F88F1DEFC02B003DC1AE /* UIView+Untill.h */,
 				18D3F8901DEFC02B003DC1AE /* UIView+Untill.m */,
 				18D3F85F1DEFBE5D003DC1AE /* AppDelegate.h */,
 				18D3F8601DEFBE5D003DC1AE /* AppDelegate.m */,
 				18D3F8621DEFBE5D003DC1AE /* ViewController.h */,
 				18D3F8631DEFBE5D003DC1AE /* ViewController.m */,
+				18D9C6191DF569FF007574DB /* LPCreatQRController.h */,
+				18D9C61A1DF569FF007574DB /* LPCreatQRController.m */,
 				18D3F8651DEFBE5D003DC1AE /* Main.storyboard */,
 				18D3F8681DEFBE5D003DC1AE /* Assets.xcassets */,
 				18D3F86A1DEFBE5D003DC1AE /* LaunchScreen.storyboard */,
@@ -279,10 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D9C61B1DF569FF007574DB /* LPCreatQRController.m in Sources */,
 				18D3F8641DEFBE5D003DC1AE /* ViewController.m in Sources */,
 				18D3F8611DEFBE5D003DC1AE /* AppDelegate.m in Sources */,
 				18D3F8911DEFC02B003DC1AE /* UIView+Untill.m in Sources */,
 				18D3F85E1DEFBE5D003DC1AE /* main.m in Sources */,
+				18D9C6181DF56947007574DB /* QRListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

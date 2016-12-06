@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import "UIView+Untill.h"
 
-
 static const CGFloat kMragin = 30;
 static const  CGFloat kBorderWidth = 100;
 static const CGFloat kImageHeight = 18;
