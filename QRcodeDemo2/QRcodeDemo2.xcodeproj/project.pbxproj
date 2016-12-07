@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188FCADF1DF69C4200C3A94C /* LPQRRecognizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FCADE1DF69C4200C3A94C /* LPQRRecognizeViewController.m */; };
 		18D3F85E1DEFBE5D003DC1AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3F85D1DEFBE5D003DC1AE /* main.m */; };
 		18D3F8611DEFBE5D003DC1AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3F8601DEFBE5D003DC1AE /* AppDelegate.m */; };
 		18D3F8641DEFBE5D003DC1AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3F8631DEFBE5D003DC1AE /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		188FCADD1DF69C4200C3A94C /* LPQRRecognizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPQRRecognizeViewController.h; sourceTree = "<group>"; };
+		188FCADE1DF69C4200C3A94C /* LPQRRecognizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPQRRecognizeViewController.m; sourceTree = "<group>"; };
 		18D3F8591DEFBE5D003DC1AE /* QRcodeDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRcodeDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D3F85D1DEFBE5D003DC1AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D3F85F1DEFBE5D003DC1AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				18D3F8631DEFBE5D003DC1AE /* ViewController.m */,
 				18D9C6191DF569FF007574DB /* LPCreatQRController.h */,
 				18D9C61A1DF569FF007574DB /* LPCreatQRController.m */,
+				188FCADD1DF69C4200C3A94C /* LPQRRecognizeViewController.h */,
+				188FCADE1DF69C4200C3A94C /* LPQRRecognizeViewController.m */,
 				18D3F8651DEFBE5D003DC1AE /* Main.storyboard */,
 				18D3F8681DEFBE5D003DC1AE /* Assets.xcassets */,
 				18D3F86A1DEFBE5D003DC1AE /* LaunchScreen.storyboard */,
@@ -291,6 +296,7 @@
 			files = (
 				18D9C61B1DF569FF007574DB /* LPCreatQRController.m in Sources */,
 				18D3F8641DEFBE5D003DC1AE /* ViewController.m in Sources */,
+				188FCADF1DF69C4200C3A94C /* LPQRRecognizeViewController.m in Sources */,
 				18D3F8611DEFBE5D003DC1AE /* AppDelegate.m in Sources */,
 				18D3F8911DEFC02B003DC1AE /* UIView+Untill.m in Sources */,
 				18D3F85E1DEFBE5D003DC1AE /* main.m in Sources */,

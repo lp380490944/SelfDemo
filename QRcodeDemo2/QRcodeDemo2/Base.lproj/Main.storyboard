@@ -27,6 +27,48 @@
             </objects>
             <point key="canvasLocation" x="3102" y="558"/>
         </scene>
+        <!--Recognize View Controller-->
+        <scene sceneID="eij-4J-vsJ">
+            <objects>
+                <viewController id="0Sh-eD-KjX" customClass="LPQRRecognizeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PId-ab-cAZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ulC-Qz-QAO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YnE-VQ-fu8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="128" translatesAutoresizingMaskIntoConstraints="NO" id="1t3-oY-cZ6">
+                                <rect key="frame" x="0.0" y="164" width="375" height="403"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Wm8-mL-7ez" appends="YES" id="q3O-eT-DcG"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1t3-oY-cZ6" secondAttribute="trailing" id="ALv-GZ-UFZ"/>
+                            <constraint firstItem="1t3-oY-cZ6" firstAttribute="top" secondItem="PId-ab-cAZ" secondAttribute="bottom" constant="100" id="BXM-1D-DAR"/>
+                            <constraint firstItem="1t3-oY-cZ6" firstAttribute="leading" secondItem="YnE-VQ-fu8" secondAttribute="leading" id="sKA-I5-j24"/>
+                            <constraint firstItem="ulC-Qz-QAO" firstAttribute="top" secondItem="1t3-oY-cZ6" secondAttribute="bottom" constant="100" id="v6X-bz-XXX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="1t3-oY-cZ6" id="duL-5p-jcc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sV5-sf-zgn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Wm8-mL-7ez">
+                    <connections>
+                        <action selector="longPressHandle:" destination="0Sh-eD-KjX" id="vp8-Sp-eqd"/>
+                        <outlet property="delegate" destination="0Sh-eD-KjX" id="vKb-gq-13P"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2310" y="763"/>
+        </scene>
         <!--CreatQR Controller-->
         <scene sceneID="bmd-rU-QTq">
             <objects>
@@ -60,6 +102,7 @@
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6CC-OL-dDv">
                                         <rect key="frame" x="21.5" y="49.5" width="300" height="300"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="NIF-lb-ICx"/>
                                             <constraint firstAttribute="width" constant="300" id="rmK-V3-fza"/>
@@ -112,6 +155,7 @@
                     <connections>
                         <segue destination="Est-Nv-GnP" kind="show" identifier="toCreat" id="15k-6C-ksu"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="toScan" id="aMQ-3O-cou"/>
+                        <segue destination="0Sh-eD-KjX" kind="show" identifier="toRecogize" id="izT-OR-CDV"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r6D-KD-nAe" userLabel="First Responder" sceneMemberID="firstResponder"/>

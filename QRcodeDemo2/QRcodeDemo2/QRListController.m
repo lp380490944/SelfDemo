@@ -28,7 +28,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -74,6 +73,8 @@
         [self performSegueWithIdentifier:@"toScan" sender:nil];
     }else if (indexPath.row == 1){
         [self performSegueWithIdentifier:@"toCreat" sender:nil];        
+    }else{
+        [self performSegueWithIdentifier:@"toRecogize" sender:nil];
     }
     
 }
