@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Base Navigation Controller-->
+        <scene sceneID="91F-aO-ppX">
+            <objects>
+                <navigationController storyboardIdentifier="discovery" id="UkT-ZI-CPm" customClass="BaseNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nIH-YC-D3C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6ek-4x-zVg" kind="relationship" relationship="rootViewController" id="Mr3-P6-bpm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mHv-VN-sxl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-858" y="-137"/>
+        </scene>
+        <!--Discovery Web Controller-->
+        <scene sceneID="cLz-Ru-F9E">
+            <objects>
+                <viewController id="6ek-4x-zVg" customClass="DiscoveryWebController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cmZ-59-kmE"/>
+                        <viewControllerLayoutGuide type="bottom" id="aV1-4I-2Qw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WlK-2P-3nj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aFV-XA-kuy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="aFV-XA-kuy" secondAttribute="trailing" id="9Eg-QM-m9u"/>
+                            <constraint firstItem="aV1-4I-2Qw" firstAttribute="top" secondItem="aFV-XA-kuy" secondAttribute="bottom" id="Hfg-ho-klt"/>
+                            <constraint firstItem="aFV-XA-kuy" firstAttribute="top" secondItem="cmZ-59-kmE" secondAttribute="bottom" constant="-64" id="rcd-3H-ya9"/>
+                            <constraint firstItem="aFV-XA-kuy" firstAttribute="leading" secondItem="WlK-2P-3nj" secondAttribute="leading" id="xZW-mh-6Pn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jh6-zC-HhJ"/>
+                    <connections>
+                        <outlet property="web" destination="aFV-XA-kuy" id="DmS-yz-Cvh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jbz-Np-VYp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46" y="-146"/>
+        </scene>
+    </scenes>
+</document>

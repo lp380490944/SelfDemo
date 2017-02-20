@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FCCB4A1E24E065009A2344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FCCB491E24E065009A2344 /* main.m */; };
+		18FCCB4D1E24E065009A2344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FCCB4C1E24E065009A2344 /* AppDelegate.m */; };
+		18FCCB501E24E065009A2344 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FCCB4F1E24E065009A2344 /* ViewController.m */; };
+		18FCCB531E24E065009A2344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FCCB511E24E065009A2344 /* Main.storyboard */; };
+		18FCCB551E24E065009A2344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FCCB541E24E065009A2344 /* Assets.xcassets */; };
+		18FCCB581E24E065009A2344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FCCB561E24E065009A2344 /* LaunchScreen.storyboard */; };
+		18FCCB631E24E065009A2344 /* block____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FCCB621E24E065009A2344 /* block____Tests.m */; };
+		18FCCB6E1E24E065009A2344 /* block____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FCCB6D1E24E065009A2344 /* block____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FCCB5F1E24E065009A2344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FCCB3D1E24E065009A2344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FCCB441E24E065009A2344;
+			remoteInfo = "block内存测试";
+		};
+		18FCCB6A1E24E065009A2344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FCCB3D1E24E065009A2344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FCCB441E24E065009A2344;
+			remoteInfo = "block内存测试";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FCCB451E24E065009A2344 /* block内存测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "block内存测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FCCB491E24E065009A2344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FCCB4B1E24E065009A2344 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18FCCB4C1E24E065009A2344 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18FCCB4E1E24E065009A2344 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18FCCB4F1E24E065009A2344 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18FCCB521E24E065009A2344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FCCB541E24E065009A2344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FCCB571E24E065009A2344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FCCB591E24E065009A2344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FCCB5E1E24E065009A2344 /* block内存测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "block内存测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FCCB621E24E065009A2344 /* block____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "block____Tests.m"; sourceTree = "<group>"; };
+		18FCCB641E24E065009A2344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FCCB691E24E065009A2344 /* block内存测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "block内存测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FCCB6D1E24E065009A2344 /* block____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "block____UITests.m"; sourceTree = "<group>"; };
+		18FCCB6F1E24E065009A2344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FCCB421E24E065009A2344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FCCB5B1E24E065009A2344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FCCB661E24E065009A2344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FCCB3C1E24E065009A2344 = {
+			isa = PBXGroup;
+			children = (
+				18FCCB471E24E065009A2344 /* block内存测试 */,
+				18FCCB611E24E065009A2344 /* block内存测试Tests */,
+				18FCCB6C1E24E065009A2344 /* block内存测试UITests */,
+				18FCCB461E24E065009A2344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FCCB461E24E065009A2344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FCCB451E24E065009A2344 /* block内存测试.app */,
+				18FCCB5E1E24E065009A2344 /* block内存测试Tests.xctest */,
+				18FCCB691E24E065009A2344 /* block内存测试UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FCCB471E24E065009A2344 /* block内存测试 */ = {
+			isa = PBXGroup;
+			children = (
+				18FCCB4B1E24E065009A2344 /* AppDelegate.h */,
+				18FCCB4C1E24E065009A2344 /* AppDelegate.m */,
+				18FCCB4E1E24E065009A2344 /* ViewController.h */,
+				18FCCB4F1E24E065009A2344 /* ViewController.m */,
+				18FCCB511E24E065009A2344 /* Main.storyboard */,
+				18FCCB541E24E065009A2344 /* Assets.xcassets */,
+				18FCCB561E24E065009A2344 /* LaunchScreen.storyboard */,
+				18FCCB591E24E065009A2344 /* Info.plist */,
+				18FCCB481E24E065009A2344 /* Supporting Files */,
+			);
+			path = "block内存测试";
+			sourceTree = "<group>";
+		};
+		18FCCB481E24E065009A2344 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FCCB491E24E065009A2344 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FCCB611E24E065009A2344 /* block内存测试Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18FCCB621E24E065009A2344 /* block____Tests.m */,
+				18FCCB641E24E065009A2344 /* Info.plist */,
+			);
+			path = "block内存测试Tests";
+			sourceTree = "<group>";
+		};
+		18FCCB6C1E24E065009A2344 /* block内存测试UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FCCB6D1E24E065009A2344 /* block____UITests.m */,
+				18FCCB6F1E24E065009A2344 /* Info.plist */,
+			);
+			path = "block内存测试UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FCCB441E24E065009A2344 /* block内存测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FCCB721E24E065009A2344 /* Build configuration list for PBXNativeTarget "block内存测试" */;
+			buildPhases = (
+				18FCCB411E24E065009A2344 /* Sources */,
+				18FCCB421E24E065009A2344 /* Frameworks */,
+				18FCCB431E24E065009A2344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "block内存测试";
+			productName = "block内存测试";
+			productReference = 18FCCB451E24E065009A2344 /* block内存测试.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FCCB5D1E24E065009A2344 /* block内存测试Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FCCB751E24E065009A2344 /* Build configuration list for PBXNativeTarget "block内存测试Tests" */;
+			buildPhases = (
+				18FCCB5A1E24E065009A2344 /* Sources */,
+				18FCCB5B1E24E065009A2344 /* Frameworks */,
+				18FCCB5C1E24E065009A2344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FCCB601E24E065009A2344 /* PBXTargetDependency */,
+			);
+			name = "block内存测试Tests";
+			productName = "block内存测试Tests";
+			productReference = 18FCCB5E1E24E065009A2344 /* block内存测试Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FCCB681E24E065009A2344 /* block内存测试UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FCCB781E24E065009A2344 /* Build configuration list for PBXNativeTarget "block内存测试UITests" */;
+			buildPhases = (
+				18FCCB651E24E065009A2344 /* Sources */,
+				18FCCB661E24E065009A2344 /* Frameworks */,
+				18FCCB671E24E065009A2344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FCCB6B1E24E065009A2344 /* PBXTargetDependency */,
+			);
+			name = "block内存测试UITests";
+			productName = "block内存测试UITests";
+			productReference = 18FCCB691E24E065009A2344 /* block内存测试UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FCCB3D1E24E065009A2344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = bluceLiu;
+				TargetAttributes = {
+					18FCCB441E24E065009A2344 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					18FCCB5D1E24E065009A2344 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18FCCB441E24E065009A2344;
+					};
+					18FCCB681E24E065009A2344 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18FCCB441E24E065009A2344;
+					};
+				};
+			};
+			buildConfigurationList = 18FCCB401E24E065009A2344 /* Build configuration list for PBXProject "block内存测试" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FCCB3C1E24E065009A2344;
+			productRefGroup = 18FCCB461E24E065009A2344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FCCB441E24E065009A2344 /* block内存测试 */,
+				18FCCB5D1E24E065009A2344 /* block内存测试Tests */,
+				18FCCB681E24E065009A2344 /* block内存测试UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FCCB431E24E065009A2344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FCCB581E24E065009A2344 /* LaunchScreen.storyboard in Resources */,
+				18FCCB551E24E065009A2344 /* Assets.xcassets in Resources */,
+				18FCCB531E24E065009A2344 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FCCB5C1E24E065009A2344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FCCB671E24E065009A2344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FCCB411E24E065009A2344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FCCB501E24E065009A2344 /* ViewController.m in Sources */,
+				18FCCB4D1E24E065009A2344 /* AppDelegate.m in Sources */,
+				18FCCB4A1E24E065009A2344 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FCCB5A1E24E065009A2344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FCCB631E24E065009A2344 /* block____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FCCB651E24E065009A2344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FCCB6E1E24E065009A2344 /* block____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FCCB601E24E065009A2344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FCCB441E24E065009A2344 /* block内存测试 */;
+			targetProxy = 18FCCB5F1E24E065009A2344 /* PBXContainerItemProxy */;
+		};
+		18FCCB6B1E24E065009A2344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FCCB441E24E065009A2344 /* block内存测试 */;
+			targetProxy = 18FCCB6A1E24E065009A2344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FCCB511E24E065009A2344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FCCB521E24E065009A2344 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FCCB561E24E065009A2344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FCCB571E24E065009A2344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FCCB701E24E065009A2344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FCCB711E24E065009A2344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FCCB731E24E065009A2344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "block内存测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluce.lp.block----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18FCCB741E24E065009A2344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "block内存测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluce.lp.block----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18FCCB761E24E065009A2344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "block内存测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluce.lp.block----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/block内存测试.app/block内存测试";
+			};
+			name = Debug;
+		};
+		18FCCB771E24E065009A2344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "block内存测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluce.lp.block----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/block内存测试.app/block内存测试";
+			};
+			name = Release;
+		};
+		18FCCB791E24E065009A2344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "block内存测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluce.lp.block----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "block内存测试";
+			};
+			name = Debug;
+		};
+		18FCCB7A1E24E065009A2344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "block内存测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluce.lp.block----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "block内存测试";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FCCB401E24E065009A2344 /* Build configuration list for PBXProject "block内存测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FCCB701E24E065009A2344 /* Debug */,
+				18FCCB711E24E065009A2344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FCCB721E24E065009A2344 /* Build configuration list for PBXNativeTarget "block内存测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FCCB731E24E065009A2344 /* Debug */,
+				18FCCB741E24E065009A2344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FCCB751E24E065009A2344 /* Build configuration list for PBXNativeTarget "block内存测试Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FCCB761E24E065009A2344 /* Debug */,
+				18FCCB771E24E065009A2344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FCCB781E24E065009A2344 /* Build configuration list for PBXNativeTarget "block内存测试UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FCCB791E24E065009A2344 /* Debug */,
+				18FCCB7A1E24E065009A2344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FCCB3D1E24E065009A2344 /* Project object */;
+}
