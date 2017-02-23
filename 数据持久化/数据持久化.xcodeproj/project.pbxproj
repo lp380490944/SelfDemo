@@ -15,6 +15,8 @@
 		18B81EF11E5A8DCB00493F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B81EEF1E5A8DCB00493F3E /* LaunchScreen.storyboard */; };
 		18B81EFC1E5A8DCB00493F3E /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B81EFB1E5A8DCB00493F3E /* _____Tests.m */; };
 		18B81F071E5A8DCB00493F3E /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B81F061E5A8DCB00493F3E /* _____UITests.m */; };
+		18B81F161E5B2A3E00493F3E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B81F151E5B2A3E00493F3E /* Person.m */; };
+		18B81F191E5B49B500493F3E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18B81F171E5B49B500493F3E /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		18B81F021E5A8DCB00493F3E /* 数据持久化UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数据持久化UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B81F061E5A8DCB00493F3E /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		18B81F081E5A8DCB00493F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B81F141E5B2A3E00493F3E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18B81F151E5B2A3E00493F3E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18B81F181E5B49B500493F3E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		18B81EE01E5A8DCB00493F3E /* 数据持久化 */ = {
 			isa = PBXGroup;
 			children = (
+				18B81F171E5B49B500493F3E /* Model.xcdatamodeld */,
 				18B81EE41E5A8DCB00493F3E /* AppDelegate.h */,
 				18B81EE51E5A8DCB00493F3E /* AppDelegate.m */,
 				18B81EE71E5A8DCB00493F3E /* ViewController.h */,
 				18B81EE81E5A8DCB00493F3E /* ViewController.m */,
+				18B81F141E5B2A3E00493F3E /* Person.h */,
+				18B81F151E5B2A3E00493F3E /* Person.m */,
 				18B81EEA1E5A8DCB00493F3E /* Main.storyboard */,
 				18B81EED1E5A8DCB00493F3E /* Assets.xcassets */,
 				18B81EEF1E5A8DCB00493F3E /* LaunchScreen.storyboard */,
@@ -275,6 +283,8 @@
 			files = (
 				18B81EE91E5A8DCB00493F3E /* ViewController.m in Sources */,
 				18B81EE61E5A8DCB00493F3E /* AppDelegate.m in Sources */,
+				18B81F191E5B49B500493F3E /* Model.xcdatamodeld in Sources */,
+				18B81F161E5B2A3E00493F3E /* Person.m in Sources */,
 				18B81EE31E5A8DCB00493F3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +533,20 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18B81F171E5B49B500493F3E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18B81F181E5B49B500493F3E /* Model.xcdatamodel */,
+			);
+			currentVersion = 18B81F181E5B49B500493F3E /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 18B81ED61E5A8DCB00493F3E /* Project object */;
 }
