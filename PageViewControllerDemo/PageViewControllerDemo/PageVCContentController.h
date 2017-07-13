@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface PageVCContentController : UIViewController
-
+@property(nonatomic,copy)NSString * titleText;
+@property(nonatomic,copy)UIColor * backGroundColor;
 @end

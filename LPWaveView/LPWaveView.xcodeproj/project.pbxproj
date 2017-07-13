@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189D5A301EFBA6D800D4A65E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D5A2F1EFBA6D800D4A65E /* main.m */; };
+		189D5A331EFBA6D800D4A65E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D5A321EFBA6D800D4A65E /* AppDelegate.m */; };
+		189D5A361EFBA6D800D4A65E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D5A351EFBA6D800D4A65E /* ViewController.m */; };
+		189D5A391EFBA6D800D4A65E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189D5A371EFBA6D800D4A65E /* Main.storyboard */; };
+		189D5A3B1EFBA6D800D4A65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189D5A3A1EFBA6D800D4A65E /* Assets.xcassets */; };
+		189D5A3E1EFBA6D800D4A65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189D5A3C1EFBA6D800D4A65E /* LaunchScreen.storyboard */; };
+		189D5A491EFBA6D800D4A65E /* LPWaveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D5A481EFBA6D800D4A65E /* LPWaveViewTests.m */; };
+		189D5A541EFBA6D800D4A65E /* LPWaveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D5A531EFBA6D800D4A65E /* LPWaveViewUITests.m */; };
+		189D5A641EFBA80100D4A65E /* LPWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D5A631EFBA80100D4A65E /* LPWaterWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189D5A451EFBA6D800D4A65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189D5A231EFBA6D800D4A65E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189D5A2A1EFBA6D800D4A65E;
+			remoteInfo = LPWaveView;
+		};
+		189D5A501EFBA6D800D4A65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189D5A231EFBA6D800D4A65E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189D5A2A1EFBA6D800D4A65E;
+			remoteInfo = LPWaveView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189D5A2B1EFBA6D800D4A65E /* LPWaveView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPWaveView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189D5A2F1EFBA6D800D4A65E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189D5A311EFBA6D800D4A65E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189D5A321EFBA6D800D4A65E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189D5A341EFBA6D800D4A65E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		189D5A351EFBA6D800D4A65E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		189D5A381EFBA6D800D4A65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189D5A3A1EFBA6D800D4A65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189D5A3D1EFBA6D800D4A65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189D5A3F1EFBA6D800D4A65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189D5A441EFBA6D800D4A65E /* LPWaveViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPWaveViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189D5A481EFBA6D800D4A65E /* LPWaveViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPWaveViewTests.m; sourceTree = "<group>"; };
+		189D5A4A1EFBA6D800D4A65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189D5A4F1EFBA6D800D4A65E /* LPWaveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPWaveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189D5A531EFBA6D800D4A65E /* LPWaveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPWaveViewUITests.m; sourceTree = "<group>"; };
+		189D5A551EFBA6D800D4A65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189D5A621EFBA80100D4A65E /* LPWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPWaterWaveView.h; sourceTree = "<group>"; };
+		189D5A631EFBA80100D4A65E /* LPWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPWaterWaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189D5A281EFBA6D800D4A65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D5A411EFBA6D800D4A65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D5A4C1EFBA6D800D4A65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189D5A221EFBA6D800D4A65E = {
+			isa = PBXGroup;
+			children = (
+				189D5A2D1EFBA6D800D4A65E /* LPWaveView */,
+				189D5A471EFBA6D800D4A65E /* LPWaveViewTests */,
+				189D5A521EFBA6D800D4A65E /* LPWaveViewUITests */,
+				189D5A2C1EFBA6D800D4A65E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189D5A2C1EFBA6D800D4A65E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189D5A2B1EFBA6D800D4A65E /* LPWaveView.app */,
+				189D5A441EFBA6D800D4A65E /* LPWaveViewTests.xctest */,
+				189D5A4F1EFBA6D800D4A65E /* LPWaveViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189D5A2D1EFBA6D800D4A65E /* LPWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				189D5A611EFBA7DB00D4A65E /* LPWaterWaveView */,
+				189D5A311EFBA6D800D4A65E /* AppDelegate.h */,
+				189D5A321EFBA6D800D4A65E /* AppDelegate.m */,
+				189D5A341EFBA6D800D4A65E /* ViewController.h */,
+				189D5A351EFBA6D800D4A65E /* ViewController.m */,
+				189D5A371EFBA6D800D4A65E /* Main.storyboard */,
+				189D5A3A1EFBA6D800D4A65E /* Assets.xcassets */,
+				189D5A3C1EFBA6D800D4A65E /* LaunchScreen.storyboard */,
+				189D5A3F1EFBA6D800D4A65E /* Info.plist */,
+				189D5A2E1EFBA6D800D4A65E /* Supporting Files */,
+			);
+			path = LPWaveView;
+			sourceTree = "<group>";
+		};
+		189D5A2E1EFBA6D800D4A65E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189D5A2F1EFBA6D800D4A65E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189D5A471EFBA6D800D4A65E /* LPWaveViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				189D5A481EFBA6D800D4A65E /* LPWaveViewTests.m */,
+				189D5A4A1EFBA6D800D4A65E /* Info.plist */,
+			);
+			path = LPWaveViewTests;
+			sourceTree = "<group>";
+		};
+		189D5A521EFBA6D800D4A65E /* LPWaveViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189D5A531EFBA6D800D4A65E /* LPWaveViewUITests.m */,
+				189D5A551EFBA6D800D4A65E /* Info.plist */,
+			);
+			path = LPWaveViewUITests;
+			sourceTree = "<group>";
+		};
+		189D5A611EFBA7DB00D4A65E /* LPWaterWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				189D5A621EFBA80100D4A65E /* LPWaterWaveView.h */,
+				189D5A631EFBA80100D4A65E /* LPWaterWaveView.m */,
+			);
+			path = LPWaterWaveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189D5A2A1EFBA6D800D4A65E /* LPWaveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189D5A581EFBA6D800D4A65E /* Build configuration list for PBXNativeTarget "LPWaveView" */;
+			buildPhases = (
+				189D5A271EFBA6D800D4A65E /* Sources */,
+				189D5A281EFBA6D800D4A65E /* Frameworks */,
+				189D5A291EFBA6D800D4A65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPWaveView;
+			productName = LPWaveView;
+			productReference = 189D5A2B1EFBA6D800D4A65E /* LPWaveView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189D5A431EFBA6D800D4A65E /* LPWaveViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189D5A5B1EFBA6D800D4A65E /* Build configuration list for PBXNativeTarget "LPWaveViewTests" */;
+			buildPhases = (
+				189D5A401EFBA6D800D4A65E /* Sources */,
+				189D5A411EFBA6D800D4A65E /* Frameworks */,
+				189D5A421EFBA6D800D4A65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189D5A461EFBA6D800D4A65E /* PBXTargetDependency */,
+			);
+			name = LPWaveViewTests;
+			productName = LPWaveViewTests;
+			productReference = 189D5A441EFBA6D800D4A65E /* LPWaveViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189D5A4E1EFBA6D800D4A65E /* LPWaveViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189D5A5E1EFBA6D800D4A65E /* Build configuration list for PBXNativeTarget "LPWaveViewUITests" */;
+			buildPhases = (
+				189D5A4B1EFBA6D800D4A65E /* Sources */,
+				189D5A4C1EFBA6D800D4A65E /* Frameworks */,
+				189D5A4D1EFBA6D800D4A65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189D5A511EFBA6D800D4A65E /* PBXTargetDependency */,
+			);
+			name = LPWaveViewUITests;
+			productName = LPWaveViewUITests;
+			productReference = 189D5A4F1EFBA6D800D4A65E /* LPWaveViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189D5A231EFBA6D800D4A65E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = bluceLiu;
+				TargetAttributes = {
+					189D5A2A1EFBA6D800D4A65E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					189D5A431EFBA6D800D4A65E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189D5A2A1EFBA6D800D4A65E;
+					};
+					189D5A4E1EFBA6D800D4A65E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189D5A2A1EFBA6D800D4A65E;
+					};
+				};
+			};
+			buildConfigurationList = 189D5A261EFBA6D800D4A65E /* Build configuration list for PBXProject "LPWaveView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189D5A221EFBA6D800D4A65E;
+			productRefGroup = 189D5A2C1EFBA6D800D4A65E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189D5A2A1EFBA6D800D4A65E /* LPWaveView */,
+				189D5A431EFBA6D800D4A65E /* LPWaveViewTests */,
+				189D5A4E1EFBA6D800D4A65E /* LPWaveViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189D5A291EFBA6D800D4A65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D5A3E1EFBA6D800D4A65E /* LaunchScreen.storyboard in Resources */,
+				189D5A3B1EFBA6D800D4A65E /* Assets.xcassets in Resources */,
+				189D5A391EFBA6D800D4A65E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D5A421EFBA6D800D4A65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D5A4D1EFBA6D800D4A65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189D5A271EFBA6D800D4A65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D5A361EFBA6D800D4A65E /* ViewController.m in Sources */,
+				189D5A641EFBA80100D4A65E /* LPWaterWaveView.m in Sources */,
+				189D5A331EFBA6D800D4A65E /* AppDelegate.m in Sources */,
+				189D5A301EFBA6D800D4A65E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D5A401EFBA6D800D4A65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D5A491EFBA6D800D4A65E /* LPWaveViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D5A4B1EFBA6D800D4A65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D5A541EFBA6D800D4A65E /* LPWaveViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189D5A461EFBA6D800D4A65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189D5A2A1EFBA6D800D4A65E /* LPWaveView */;
+			targetProxy = 189D5A451EFBA6D800D4A65E /* PBXContainerItemProxy */;
+		};
+		189D5A511EFBA6D800D4A65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189D5A2A1EFBA6D800D4A65E /* LPWaveView */;
+			targetProxy = 189D5A501EFBA6D800D4A65E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189D5A371EFBA6D800D4A65E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189D5A381EFBA6D800D4A65E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189D5A3C1EFBA6D800D4A65E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189D5A3D1EFBA6D800D4A65E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189D5A561EFBA6D800D4A65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		189D5A571EFBA6D800D4A65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189D5A591EFBA6D800D4A65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPWaveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluce.JuHe.LPWaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		189D5A5A1EFBA6D800D4A65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPWaveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluce.JuHe.LPWaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		189D5A5C1EFBA6D800D4A65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LPWaveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluce.JuHe.LPWaveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPWaveView.app/LPWaveView";
+			};
+			name = Debug;
+		};
+		189D5A5D1EFBA6D800D4A65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LPWaveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluce.JuHe.LPWaveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPWaveView.app/LPWaveView";
+			};
+			name = Release;
+		};
+		189D5A5F1EFBA6D800D4A65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LPWaveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluce.JuHe.LPWaveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LPWaveView;
+			};
+			name = Debug;
+		};
+		189D5A601EFBA6D800D4A65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LPWaveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluce.JuHe.LPWaveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LPWaveView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189D5A261EFBA6D800D4A65E /* Build configuration list for PBXProject "LPWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189D5A561EFBA6D800D4A65E /* Debug */,
+				189D5A571EFBA6D800D4A65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189D5A581EFBA6D800D4A65E /* Build configuration list for PBXNativeTarget "LPWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189D5A591EFBA6D800D4A65E /* Debug */,
+				189D5A5A1EFBA6D800D4A65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189D5A5B1EFBA6D800D4A65E /* Build configuration list for PBXNativeTarget "LPWaveViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189D5A5C1EFBA6D800D4A65E /* Debug */,
+				189D5A5D1EFBA6D800D4A65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189D5A5E1EFBA6D800D4A65E /* Build configuration list for PBXNativeTarget "LPWaveViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189D5A5F1EFBA6D800D4A65E /* Debug */,
+				189D5A601EFBA6D800D4A65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189D5A231EFBA6D800D4A65E /* Project object */;
+}

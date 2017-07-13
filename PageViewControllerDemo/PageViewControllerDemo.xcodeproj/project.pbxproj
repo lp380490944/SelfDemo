@@ -15,6 +15,8 @@
 		1836CB281EFA24CD00799A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836CB261EFA24CD00799A89 /* LaunchScreen.storyboard */; };
 		1836CB331EFA24CD00799A89 /* PageViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836CB321EFA24CD00799A89 /* PageViewControllerDemoTests.m */; };
 		1836CB3E1EFA24CD00799A89 /* PageViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836CB3D1EFA24CD00799A89 /* PageViewControllerDemoUITests.m */; };
+		1836CB4D1EFA26DE00799A89 /* LPPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836CB4C1EFA26DE00799A89 /* LPPageViewController.m */; };
+		1836CB501EFA46B200799A89 /* PageVCContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836CB4F1EFA46B200799A89 /* PageVCContentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1836CB391EFA24CD00799A89 /* PageViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1836CB3D1EFA24CD00799A89 /* PageViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerDemoUITests.m; sourceTree = "<group>"; };
 		1836CB3F1EFA24CD00799A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836CB4B1EFA26DE00799A89 /* LPPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPageViewController.h; sourceTree = "<group>"; };
+		1836CB4C1EFA26DE00799A89 /* LPPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPageViewController.m; sourceTree = "<group>"; };
+		1836CB4E1EFA46B200799A89 /* PageVCContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageVCContentController.h; sourceTree = "<group>"; };
+		1836CB4F1EFA46B200799A89 /* PageVCContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageVCContentController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				1836CB1C1EFA24CD00799A89 /* AppDelegate.m */,
 				1836CB1E1EFA24CD00799A89 /* ViewController.h */,
 				1836CB1F1EFA24CD00799A89 /* ViewController.m */,
+				1836CB4B1EFA26DE00799A89 /* LPPageViewController.h */,
+				1836CB4C1EFA26DE00799A89 /* LPPageViewController.m */,
+				1836CB4E1EFA46B200799A89 /* PageVCContentController.h */,
+				1836CB4F1EFA46B200799A89 /* PageVCContentController.m */,
 				1836CB211EFA24CD00799A89 /* Main.storyboard */,
 				1836CB241EFA24CD00799A89 /* Assets.xcassets */,
 				1836CB261EFA24CD00799A89 /* LaunchScreen.storyboard */,
@@ -274,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1836CB201EFA24CD00799A89 /* ViewController.m in Sources */,
+				1836CB4D1EFA26DE00799A89 /* LPPageViewController.m in Sources */,
 				1836CB1D1EFA24CD00799A89 /* AppDelegate.m in Sources */,
+				1836CB501EFA46B200799A89 /* PageVCContentController.m in Sources */,
 				1836CB1A1EFA24CD00799A89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
