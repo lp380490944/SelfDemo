@@ -84,7 +84,7 @@
 
 - (void)loadTestPage {
     
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"bridgeDemo" ofType:@"html"];
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"ExampleApp" ofType:@"html"];
     
     NSString * htmlStr = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     NSURL * url = [NSURL fileURLWithPath:path];

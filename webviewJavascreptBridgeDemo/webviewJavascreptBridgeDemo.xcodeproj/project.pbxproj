@@ -16,7 +16,7 @@
 		185BC0621F17187B00CFBF53 /* webviewJavascreptBridgeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185BC0611F17187B00CFBF53 /* webviewJavascreptBridgeDemoTests.m */; };
 		185BC06D1F17187B00CFBF53 /* webviewJavascreptBridgeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185BC06C1F17187B00CFBF53 /* webviewJavascreptBridgeDemoUITests.m */; };
 		185BC07B1F176AFC00CFBF53 /* bridgeDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = 185BC07A1F176AFC00CFBF53 /* bridgeDemo.html */; };
-		18891A581F177C130062250F /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 18891A571F177C130062250F /* ExampleApp.html */; };
+		18891A5A1F177F990062250F /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 18891A591F177F990062250F /* ExampleApp.html */; };
 		A3CC7BBE35035E3F56E56031 /* libPods-webviewJavascreptBridgeDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFB4E5455C05EB2530C77BD /* libPods-webviewJavascreptBridgeDemoTests.a */; };
 		CD3ED3C84DBF9E1539DCE213 /* libPods-webviewJavascreptBridgeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B108AB45CA2A80EFACDE14F7 /* libPods-webviewJavascreptBridgeDemo.a */; };
 		F2F83FBC29805C8F6A070A14 /* libPods-webviewJavascreptBridgeDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE7BDC2EF791766BAFE1AA /* libPods-webviewJavascreptBridgeDemoUITests.a */; };
@@ -57,7 +57,7 @@
 		185BC06C1F17187B00CFBF53 /* webviewJavascreptBridgeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webviewJavascreptBridgeDemoUITests.m; sourceTree = "<group>"; };
 		185BC06E1F17187B00CFBF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185BC07A1F176AFC00CFBF53 /* bridgeDemo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bridgeDemo.html; sourceTree = "<group>"; };
-		18891A571F177C130062250F /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		18891A591F177F990062250F /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
 		2DBBF63CA2D4621B871191B5 /* Pods-webviewJavascreptBridgeDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webviewJavascreptBridgeDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-webviewJavascreptBridgeDemoUITests/Pods-webviewJavascreptBridgeDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		812C1BF2166D1ECB2C4E05B1 /* Pods-webviewJavascreptBridgeDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webviewJavascreptBridgeDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webviewJavascreptBridgeDemoTests/Pods-webviewJavascreptBridgeDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		88BE7BDC2EF791766BAFE1AA /* libPods-webviewJavascreptBridgeDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webviewJavascreptBridgeDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				185BC07A1F176AFC00CFBF53 /* bridgeDemo.html */,
-				18891A571F177C130062250F /* ExampleApp.html */,
+				18891A591F177F990062250F /* ExampleApp.html */,
 				185BC04A1F17187B00CFBF53 /* AppDelegate.h */,
 				185BC04B1F17187B00CFBF53 /* AppDelegate.m */,
 				185BC04D1F17187B00CFBF53 /* ViewController.h */,
@@ -300,7 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18891A581F177C130062250F /* ExampleApp.html in Resources */,
+				18891A5A1F177F990062250F /* ExampleApp.html in Resources */,
 				185BC07B1F176AFC00CFBF53 /* bridgeDemo.html in Resources */,
 				185BC0571F17187B00CFBF53 /* LaunchScreen.storyboard in Resources */,
 				185BC0541F17187B00CFBF53 /* Assets.xcassets in Resources */,
